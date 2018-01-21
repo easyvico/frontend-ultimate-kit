@@ -1,0 +1,60 @@
+extends extends/template1.pug
+
+block content
+  mj-section(padding-bottom='0')
+    mj-column
+      mj-text(font-family='arial', font-size='12px', color=color1001, align='center', padding-left='0', padding-right='0', padding-bottom='0', padding-top='0', line-height='15px') Pour votre contrat d'assurance, faites confiance à MAIF
+      mj-text(font-family='arial', font-size='12px', color=color1001, align='center', padding-left='0', padding-right='0', padding-bottom='0', padding-top='0', line-height='15px')
+        | Si vous ne visualisez pas correctement ce message, accèdez à la 
+        a(href='https://mjml.io', style='color: inherit;') version en ligne
+      mj-image(href='https://www.maif.fr', src='../img/rwd/logo-ac.gif', alt='Maif logo', align='center', border='none', width='233', padding-left='0', padding-right='0', padding-bottom='25', padding-top='25')
+  mj-section(padding-bottom='0', padding-top='0')
+    mj-column(vertical-align='middle', width='40%')
+      mj-image(src='../img/rwd/assurer.gif', width='205', padding-left='0', padding-right='0', padding-bottom='0', padding-top='0')
+    mj-column(vertical-align='middle', width='30%')
+      mj-image(src='../img/rwd/head-ome.gif', alt='filaire', align='center', border='none', width='190', padding-left='0', padding-right='0', padding-bottom='0', padding-top='0')
+  
+  // Bloc biseau
+  mj-section(background-color='#fff', padding-top='0')
+    mj-image(src='../img/rwd/top-nuit.jpg', alt='top nuit', align='center', border='none', padding-left='0', padding-right='0', padding-bottom='0', padding-top='0')
+    mj-column(width='80%')
+      mj-text(padding-top='40px', align='center', font-size='22px', color='#166373', font-family='arial') Votre devis d'assurance multirisque
+      mj-text(align='justify', font-size='15px', color=color1001, font-family='arial')
+        p Bonjour, Vous trouverez en pièce jointe votre devis d'assurance RAQVAM Associations&Collectivités.
+      mj-image(src='../img/rwd/rappel-demande.gif', width='163', alt='rappel demande')
+
+      // Cadres picto infos
+      mj-column(margin-bottom='20', padding-top='20', width='89%', align='center')
+        mj-section(padding-bottom='10', padding-top='10', border='1px solid #dddddd')
+          mj-group
+            mj-column(vertical-align='middle', width='17%')
+              mj-image(src='../img/rwd/picto-societaire.gif', width='20', padding='0')
+            mj-column(vertical-align='middle', width='83%', align='left')
+              mj-text(font-weight="bold", font-size="15", color=color1000, padding='0') [NOM DE L&apos;ASSOCIATION]
+
+        mj-section(padding-bottom='10', padding-top='10', border='1px solid #dddddd')
+          mj-group
+            mj-column(vertical-align='top', width='17%', align='left')
+              mj-image(src='../img/rwd/picto-groupe.gif', width='30', padding='0')
+            mj-column(vertical-align='top', width='83%', align='left')
+              mj-text(font-family='arial', font-weight="bold", font-size="15", color=color1000, padding='0') GARANTIE DE L&apos;ACTIVIT&#201; (M901)
+              mj-text(font-family='arial', font-size="15", color=color1000, padding='0', padding-top='10') Activit&#233; propos&#233;e :&#160;
+                span(style='font-weight:bold;') sportive
+              mj-text(font-family='arial', font-size="15", color=color1000, padding='0', padding-top='10') Participants :&#160;
+                span(style='font-weight:bold') 1 &agrave; 50 participants
+
+        mj-section(padding-bottom='10', padding-top='10', border='1px solid #dddddd')
+          mj-group
+            mj-column(vertical-align='top', width='17%', background-color='pink')
+              mj-image(src='../img/rwd/picto-maison.gif', border="none" width="0" padding-left="0" 
+              padding-right="0" padding-bottom="0" padding-top="0")
+             
+            mj-column(vertical-align='top', width='83%', align='left')
+              mj-text(font-family='arial', font-weight="bold", font-size="15", color=color1000, padding='0') GARANTIE DES BIENS MOBILIERS (M910)
+              mj-text(font-family='arial', font-size="15", color=color1000, padding='0', padding-top='10') Occupation des locaux :&#160;
+                span(style='font-weight:bold;') oui - de façon temporaire
+              mj-text(font-family='arial', font-size="15", color=color1000, padding='0', padding-top='10') Participants :&#160;
+                span(style='font-weight:bold') 1 &agrave; 50 participants
+
+    
+

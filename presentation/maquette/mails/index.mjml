@@ -1,0 +1,39 @@
+<mjml>
+  <mj-body>
+    <mj-container background-color="#ede9e2">
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text font-family="arial" font-size="12px" color="#666666" align="center" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0" line-height="15px">Pour votre contrat d'assurance, faites confiance &agrave; MAIF</mj-text>
+          <mj-text font-family="arial" font-size="12px" color="#666666" align="center" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0" line-height="15px">Si vous ne visualisez pas correctement ce message, accèdez à la <a href="https://mjml.io" style="color: inherit;">version en ligne</a></mj-text>
+
+          <mj-image href="https://www.maif.fr" src="../img/rwd/logo-ac.gif" alt="Maif logo" align="center" 
+            border="none" width="233" padding-left="0" padding-right="0" padding-bottom="25" padding-top="25">           
+          </mj-image>       
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="0" padding-top="0">
+        <mj-column vertical-align="middle" width="40%">
+          <mj-image src="../img/rwd/assurer.gif" width="205" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0"></mj-image>
+        </mj-column>
+
+        <mj-column vertical-align="middle" width="30%">
+          <mj-image src="../img/rwd/head-ome.gif" alt="filaire" align="center" border="none" width="190" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#fff" padding-top="0">               
+        <mj-image src="../img/rwd/top-nuit.jpg" alt="top nuit" align="center" 
+          border="none" padding-left="0" padding-right="0" padding-bottom="0" padding-top="0">           
+        </mj-image>
+        <mj-column width="80%">
+          <mj-text padding-top="40px" align="center" font-size="22px" color="#166373" font-family="arial">Votre devis d'assurance multirisque</mj-text>
+          <mj-text align="justify" font-size="15px" color="#666666" font-family="arial"><p>Bonjour,</p>Vous trouverez en pièce jointe votre devis d'assurance RAQVAM Associations&Collectivités.</mj-text>
+        </mj-column>
+
+      </mj-section>
+
+
+    </mj-container>
+  </mj-body>
+</mjml>

@@ -1,0 +1,20 @@
+include 00-template-vars.pug
+
+doctype
+html(lang="fr")
+  head
+    meta(charset="utf-8")/
+    meta(http-equiv="x-ua-compatible", content="ie=edge")/
+    meta(name="viewport", content="width=device-width, initial-scale=1")/
+    
+    block metas
+      title Page title
+      meta(name="description", content="page meta description")/
+
+    link(rel='stylesheet', href=baseurl + '/css/rwd/all.css')/
+    //link(href=baseurl + '/img/rwd/favicon.ico', rel="shortcut icon")/
+    block headerScripts
+  body
+    block content
+
+  script(src=baseurl + '/js/rwd/all.js')

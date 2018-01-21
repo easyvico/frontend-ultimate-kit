@@ -1,0 +1,39 @@
+//$screen-sm:                  768px;
+//$mobile-media-query: "(max-width: #{$screen-sm - 1})";
+.container#content {
+    background: rgb(0, 70, 128);
+
+    .blocs {
+        background: green;
+        margin-bottom: 100px;
+
+        .style.flex-row {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+
+            background: hotpink;
+
+            ul {
+                background: blueviolet;
+                color: wheat;            
+            }
+            @media #{$mobile-media-query}{
+                display: block;
+            }
+        }
+        /* Icone */
+        >i {
+            color: sandybrown;
+            font-size: 24px;
+        }
+    }
+    
+    
+    .btn-search {
+        >button {
+            background: orange;
+        }
+    }
+}
