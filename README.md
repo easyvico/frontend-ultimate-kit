@@ -1,1 +1,1 @@
-# frontend-ultimate-kit
+# frontend-ultimate-kit by Laurent Vicherd
