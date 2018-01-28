@@ -1,10 +1,10 @@
 //$screen-sm:                  768px;
 //$mobile-media-query: "(max-width: #{$screen-sm - 1})";
 .container#content {
-    background: rgb(0, 70, 128);
+    background: rgb(194, 194, 194);
 
     .blocs {
-        background: green;
+        background: grey;
         margin-bottom: 100px;
 
         .style.flex-row {
@@ -13,21 +13,27 @@
             justify-content: center;
             text-align: center;
 
-            background: hotpink;
+            background: rgb(208, 208, 208);
 
             ul {
-                background: blueviolet;
+                background: rgb(171, 171, 171);
                 color: wheat;            
             }
             @media #{$mobile-media-query}{
                 display: block;
             }
         }
-        /* Icone */
-        >i {
+        /* Icone + texte */
+        i {
             color: sandybrown;
-            font-size: 24px;
+            font-size: 34px;
+            vertical-align: middle;
         }
+        span {
+            font-size: 20px;
+            vertical-align: middle;
+        }
+        
     }
     
     

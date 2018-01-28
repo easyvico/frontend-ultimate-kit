@@ -1,5 +1,6 @@
 extends extends/template.jade
 
+
 block content
   h1 Hello world
 
@@ -8,17 +9,16 @@ block content
       .row.style.flex-row
         .col-sm-4
           ul.list-unstyled
-            li bonjour
-            li je m'appelle
-            li Laurent
+            each item in array
+              li= item
             
         .col-sm-4
           ul.list-unstyled
-            li j'ai 2 enfants
-            li Louis et Zoé
-            li que j'aime très fort
-            li Je travaille dans l'informatique
+            li un repository
+            li qui vous servira
+            li de base pour réaliser
+            li votre application web responsive
 
-
-      i.icon.icon-call TEST
+      i.icon.icon-cercleplus
+      span TEST
       
